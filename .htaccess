@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Set this to your local project folder (adjust "yourproject" as needed)
+RewriteBase /icon/
+
+# Rewrite clean category URLs
+RewriteRule ^category/([a-zA-Z0-9-]+)/?$ category.php?category=$1 [L,QSA]
+
+# Rewrite clean product URLs (category + subcategory)
+RewriteRule ^product/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/?$ product.php?category=$1&subcategory=$2 [L,QSA]
+
+# Rewrite clean subcategory URLs
+RewriteRule ^subcategory/([a-zA-Z0-9-]+)/?$ sub-category.php?category=$1 [L,QSA]
+
+# Rewrite clean product detail URLs
+RewriteRule ^product-details/([a-zA-Z0-9-]+)/?$ product-details.php?slug=$1 [L,QSA]

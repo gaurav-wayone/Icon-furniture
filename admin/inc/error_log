@@ -1,0 +1,44 @@
+[14-Feb-2025 05:47:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'slider_image' in 'field list' in /home4/iconfurniture/public_html/admin/inc/delete_slider.php:9
+Stack trace:
+#0 /home4/iconfurniture/public_html/admin/inc/delete_slider.php(9): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home4/iconfurniture/public_html/admin/inc/delete_slider.php on line 9
+[14-Feb-2025 05:47:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'slider_image' in 'field list' in /home4/iconfurniture/public_html/admin/inc/delete_slider.php:9
+Stack trace:
+#0 /home4/iconfurniture/public_html/admin/inc/delete_slider.php(9): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home4/iconfurniture/public_html/admin/inc/delete_slider.php on line 9
+[14-Feb-2025 05:48:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'slider_image' in 'field list' in /home4/iconfurniture/public_html/admin/inc/delete_slider.php:9
+Stack trace:
+#0 /home4/iconfurniture/public_html/admin/inc/delete_slider.php(9): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home4/iconfurniture/public_html/admin/inc/delete_slider.php on line 9
+[18-Feb-2025 07:54:05 UTC] PHP Warning:  Undefined array key "author_position" in /home4/iconfurniture/public_html/admin/inc/edit_testimonial.php on line 22
+[18-Feb-2025 07:54:21 UTC] PHP Warning:  Undefined array key "author_position" in /home4/iconfurniture/public_html/admin/inc/edit_testimonial.php on line 22
+[18-Feb-2025 07:54:50 UTC] PHP Warning:  Undefined array key "author_position" in /home4/iconfurniture/public_html/admin/inc/edit_testimonial.php on line 22
+[24-Feb-2025 12:17:48 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[24-Feb-2025 12:30:20 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[24-Feb-2025 12:31:43 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[24-Feb-2025 12:32:46 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[24-Feb-2025 12:49:45 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[24-Feb-2025 12:50:05 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[24-Feb-2025 12:50:17 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 06:46:11 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 09:10:29 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 09:12:40 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 09:15:13 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 09:21:44 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 09:27:14 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 09:49:51 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[26-Feb-2025 09:51:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price' in 'field list' in /home4/iconfurniture/public_html/admin/inc/edit_product.php:52
+Stack trace:
+#0 /home4/iconfurniture/public_html/admin/inc/edit_product.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 52
+[26-Feb-2025 09:52:20 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[05-Mar-2025 11:03:16 UTC] PHP Warning:  Undefined array key "price" in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 168
+[05-Mar-2025 11:03:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price' in 'field list' in /home4/iconfurniture/public_html/admin/inc/edit_product.php:52
+Stack trace:
+#0 /home4/iconfurniture/public_html/admin/inc/edit_product.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home4/iconfurniture/public_html/admin/inc/edit_product.php on line 52
